@@ -6,15 +6,17 @@ permalink: /homeopatia/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Homeopatia</p>
-    <span class="eyebrow">Homeopatia clássica</span>
-    <h1>O que é homeopatia — e como ela realmente funciona</h1>
-    <p class="lede">
-      Um guia direto sobre os fundamentos da homeopatia hahnemanniana: de onde ela veio, como um
-      medicamento é escolhido e o que esperar de um acompanhamento.
-    </p>
-    <div class="media-frame" style="max-width:320px; margin-top:24px;">
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Homeopatia</p>
+      <span class="eyebrow">Homeopatia clássica</span>
+      <h1>O que é homeopatia — e como ela realmente funciona</h1>
+      <p class="lede">
+        Um guia direto sobre os fundamentos da homeopatia hahnemanniana: de onde ela veio, como um
+        medicamento é escolhido e o que esperar de um acompanhamento.
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:320px; justify-self:end;">
       <img src="{{ '/assets/images/homeopatia-hero.jpg' | relative_url }}" alt="Ilustração 'Homeopatia': almofariz, frasco de glóbulos e ramos de flores, representando o estímulo natural da vitalidade">
     </div>
   </div>

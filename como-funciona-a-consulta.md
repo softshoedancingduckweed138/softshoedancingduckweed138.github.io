@@ -6,14 +6,16 @@ permalink: /como-funciona-a-consulta/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Como funciona a consulta</p>
-    <span class="eyebrow">Passo a passo</span>
-    <h1>Como funciona a consulta, do primeiro contato ao acompanhamento</h1>
-    <p class="lede">
-      Um processo pensado para ser claro desde o início — você sabe exatamente o que esperar em cada etapa.
-    </p>
-    <div class="media-frame" style="max-width:320px; margin-top:24px;">
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Como funciona a consulta</p>
+      <span class="eyebrow">Passo a passo</span>
+      <h1>Como funciona a consulta, do primeiro contato ao acompanhamento</h1>
+      <p class="lede">
+        Um processo pensado para ser claro desde o início — você sabe exatamente o que esperar em cada etapa.
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:320px; justify-self:end;">
       <img src="{{ '/assets/images/como-funciona.jpg' | relative_url }}" alt="Ilustração 'Cuidado Integral': figura em meditação com uma flor, representando o acolhimento individualizado ao longo da consulta">
     </div>
   </div>

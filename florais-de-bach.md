@@ -6,15 +6,17 @@ permalink: /florais-de-bach/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Florais de Bach</p>
-    <span class="eyebrow">Terapia floral</span>
-    <h1>Florais de Bach: cuidado emocional através das plantas</h1>
-    <p class="lede">
-      Trinta e oito essências florais criadas para apoiar estados emocionais — sempre escolhidas a
-      partir de uma escuta individual, e não de fórmulas padronizadas para cada sintoma.
-    </p>
-    <div class="media-frame" style="max-width:320px; margin-top:24px;">
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Florais de Bach</p>
+      <span class="eyebrow">Terapia floral</span>
+      <h1>Florais de Bach: cuidado emocional através das plantas</h1>
+      <p class="lede">
+        Trinta e oito essências florais criadas para apoiar estados emocionais — sempre escolhidas a
+        partir de uma escuta individual, e não de fórmulas padronizadas para cada sintoma.
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:320px; justify-self:end;">
       <img src="{{ '/assets/images/terapia-floral.jpg' | relative_url }}" alt="Ilustração 'Terapia Floral': aquarela de flores silvestres, representando as essências que apoiam o equilíbrio emocional">
     </div>
   </div>

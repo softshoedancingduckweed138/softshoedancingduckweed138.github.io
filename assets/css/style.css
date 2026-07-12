@@ -8,8 +8,10 @@
   --ink-soft: #3E4E45;
   --sage: #5C7A63;
   --sage-deep: #3F5B48;
-  --plum: #5B3876;
-  --plum-deep: #432A5A;
+  --plum: #6B3F86;
+  --plum-deep: #4F2D66;
+  --lavender-soft: #EDE3F3;
+  --lavender-line: #D9C6E6;
   --gold: #B4914F;
   --line: #D8D2C0;
   --paper-rgb: 241,238,227;
@@ -173,15 +175,18 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, summary:focus-visible
 .hero-grid{
   display:grid; grid-template-columns: 1.15fr .85fr; gap: 48px; align-items:center;
 }
-@media (max-width: 860px){ .hero-grid{ grid-template-columns: 1fr; } }
+@media (max-width: 860px){
+  .hero-grid{ grid-template-columns: 1fr; }
+  .page-hero .media-frame{ justify-self: center !important; margin: 24px auto 0; }
+}
 
 .hero h1{ margin-bottom:.4em; }
 .hero .lede{ font-size: 1.15rem; color: var(--ink-soft); max-width: 46ch; }
 .hero-tags{ display:flex; flex-wrap:wrap; gap:10px; margin: 22px 0 26px; }
 .tag{
   font-family: var(--font-mono); font-size: .72rem; letter-spacing:.04em;
-  border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px;
-  color: var(--ink-soft); background: rgba(255,255,255,.35);
+  border: 1px solid var(--lavender-line); border-radius: 999px; padding: 6px 12px;
+  color: var(--plum-deep); background: var(--lavender-soft);
 }
 .hero-actions{ display:flex; flex-wrap:wrap; gap:14px; }
 
@@ -266,7 +271,7 @@ section{ padding: 56px 0; }
 /* Pill list (situations) */
 .pill-grid{ display:flex; flex-wrap:wrap; gap: 10px; }
 .pill{
-  border:1px solid var(--line); border-radius: 999px; padding: 9px 16px;
+  border:1px solid var(--lavender-line); border-radius: 999px; padding: 9px 16px;
   font-size: .88rem; color: var(--ink-soft); background: rgba(255,255,255,.4);
 }
 
@@ -284,7 +289,7 @@ section{ padding: 56px 0; }
 .faq-item summary .q-num{
   font-family: var(--font-mono); color: var(--gold); font-size: .8rem; margin-right: .8em;
 }
-.faq-item summary .icon{ font-family: var(--font-mono); color: var(--sage-deep); font-size: 1.1rem; flex-shrink:0; }
+.faq-item summary .icon{ font-family: var(--font-mono); color: var(--plum); font-size: 1.1rem; flex-shrink:0; }
 .faq-item[open] summary .icon{ transform: rotate(45deg); }
 .faq-item .icon{ transition: transform .15s ease; display:inline-block; }
 .faq-answer{ padding: 0 4px 22px 4px; color: var(--ink-soft); max-width: 68ch; }
@@ -294,7 +299,7 @@ section{ padding: 56px 0; }
   font-family: var(--font-mono); font-size: .74rem; text-decoration:none;
   border:1px solid var(--line); padding: 6px 12px; border-radius: 999px; color: var(--ink-soft);
 }
-.faq-nav a:hover{ border-color: var(--gold); color: var(--ink); }
+.faq-nav a:hover{ border-color: var(--plum); color: var(--plum-deep); }
 
 /* =====================================================
    TOC (índice) used in long content pages
@@ -315,7 +320,7 @@ section{ padding: 56px 0; }
 .prose h2:first-child{ margin-top:0; border-top:none; padding-top:0; }
 .prose ul, .prose ol{ color: var(--ink-soft); }
 .prose blockquote{
-  margin: 1.6em 0; padding: 4px 0 4px 20px; border-left: 3px solid var(--gold);
+  margin: 1.6em 0; padding: 4px 0 4px 20px; border-left: 3px solid var(--plum);
   font-family: var(--font-display); font-style: italic; color: var(--ink-soft); font-size: 1.05rem;
 }
 .callout{

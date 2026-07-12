@@ -6,15 +6,17 @@ permalink: /sobre/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Sobre mim</p>
-    <span class="eyebrow">Sobre mim</span>
-    <h1>A pergunta que mudou minha forma de olhar para a saúde</h1>
-    <p class="lede">
-      Antes de qualquer diploma, houve uma pergunta simples que não me saía da cabeça: por que tantas
-      pessoas seguem de consultório em consultório, tomando cada vez mais remédios, e continuam se sentindo mal?
-    </p>
-    <div class="media-frame" style="max-width:320px; margin-top:24px;">
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Sobre mim</p>
+      <span class="eyebrow">Sobre mim</span>
+      <h1>A pergunta que mudou minha forma de olhar para a saúde</h1>
+      <p class="lede">
+        Antes de qualquer diploma, houve uma pergunta simples que não me saía da cabeça: por que tantas
+        pessoas seguem de consultório em consultório, tomando cada vez mais remédios, e continuam se sentindo mal?
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:320px; justify-self:end;">
       <img src="{{ '/assets/images/sobre-mim.jpg' | relative_url }}" alt="Ilustração 'Sobre Mim': caderno de anotações e xícara de chá com flores, convidando a conhecer minha história e abordagem terapêutica">
     </div>
   </div>
