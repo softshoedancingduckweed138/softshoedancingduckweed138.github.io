@@ -75,11 +75,10 @@ permalink: /sobre/
     <h2>Formação</h2>
     <ul>
       <li>Formação em Homeopatia (linha hahnemanniana clássica).</li>
-      <li>Formação em Terapia Floral — Sistema Floral de Bach.</li>
-      <li>Atualização contínua através de estudos de caso, supervisão clínica e cursos complementares.</li>
+      <li>Atualização contínua através de estudos de caso, pesquisa e desenvolvimentos de materiais educacionais.</li>
     </ul>
     <p class="small-print">
-      Substitua este bloco pelos nomes reais das instituições, cargas horárias e ano de conclusão de cada curso.
+      
     </p>
 
     <div class="cta-band" style="margin-top:40px;">
