@@ -6,14 +6,19 @@ permalink: /valores/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Valores</p>
-    <span class="eyebrow">Investimento</span>
-    <h1>Valores e orçamento</h1>
-    <p class="lede">
-      Os valores variam conforme o tipo de consulta (primeira consulta ou retorno) e a abordagem
-      (homeopatia, florais de Bach, ou as duas em conjunto). Solicite um orçamento personalizado pelo WhatsApp.
-    </p>
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Valores</p>
+      <span class="eyebrow">Investimento</span>
+      <h1>Valores e orçamento</h1>
+      <p class="lede">
+        Os valores variam conforme o tipo de consulta (primeira consulta ou retorno) e a abordagem
+        (homeopatia, florais de Bach, ou as duas em conjunto). Solicite um orçamento personalizado pelo WhatsApp.
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:320px; justify-self:end;">
+      <img src="{{ '/assets/images/valores.jpg' | relative_url }}" alt="Ilustração 'Valores': prancheta com os dizeres 'terapias com propósito e cuidado, investimento no seu equilíbrio e bem-estar', ao lado de maquininha de cartão">
+    </div>
   </div>
 </section>
 

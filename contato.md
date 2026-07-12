@@ -6,14 +6,19 @@ permalink: /contato/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Contato</p>
-    <span class="eyebrow">Fale comigo</span>
-    <h1>Vamos conversar</h1>
-    <p class="lede">
-      A forma mais rápida de agendar ou tirar dúvidas é pelo WhatsApp. Também respondo por e-mail,
-      geralmente em até um dia útil.
-    </p>
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Contato</p>
+      <span class="eyebrow">Fale comigo</span>
+      <h1>Vamos conversar</h1>
+      <p class="lede">
+        A forma mais rápida de agendar ou tirar dúvidas é pelo WhatsApp. Também respondo por e-mail,
+        geralmente em até um dia útil.
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:320px; justify-self:end;">
+      <img src="{{ '/assets/images/contato.jpg' | relative_url }}" alt="Ilustração 'Contato': envelope entre flores, com ícones de e-mail, WhatsApp e Instagram">
+    </div>
   </div>
 </section>
 
@@ -33,6 +38,10 @@ permalink: /contato/
         <h3>Horário de atendimento</h3>
         <p>{{ site.office_hours }}</p>
         <p>{{ site.city_state }}</p>
+      </div>
+      <div class="card">
+        <h3>Instagram</h3>
+        <p><a href="{{ site.instagram }}" target="_blank" rel="noopener">Acompanhe o dia a dia do consultório</a></p>
       </div>
     </div>
 

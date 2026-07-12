@@ -6,13 +6,18 @@ permalink: /atendimento-online/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Atendimento online</p>
-    <span class="eyebrow">Consultas por videochamada</span>
-    <h1>Atendimento 100% online, para qualquer lugar do Brasil</h1>
-    <p class="lede">
-      Todas as consultas são feitas por videochamada. Veja abaixo como funciona na prática.
-    </p>
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Atendimento online</p>
+      <span class="eyebrow">Consultas por videochamada</span>
+      <h1>Atendimento 100% online, para qualquer lugar do Brasil</h1>
+      <p class="lede">
+        Todas as consultas são feitas por videochamada. Veja abaixo como funciona na prática.
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:340px; justify-self:end;">
+      <img src="{{ '/assets/images/atendimento-online.jpg' | relative_url }}" alt="Ilustração de uma videochamada em notebook, com caderno de anotações, café e um vaso de flores ao lado">
+    </div>
   </div>
 </section>
 

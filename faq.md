@@ -6,14 +6,19 @@ permalink: /faq/
 ---
 
 <section class="page-hero">
-  <div class="container">
-    <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Perguntas frequentes</p>
-    <span class="eyebrow">Tire suas dúvidas</span>
-    <h1>Perguntas frequentes</h1>
-    <p class="lede">
-      Reunimos aqui as dúvidas mais comuns sobre homeopatia, florais de Bach e o funcionamento das
-      consultas. Não encontrou sua pergunta? Mande uma mensagem no WhatsApp.
-    </p>
+  <div class="container hero-grid">
+    <div>
+      <p class="crumb"><a href="{{ '/' | relative_url }}">Início</a> / Perguntas frequentes</p>
+      <span class="eyebrow">Tire suas dúvidas</span>
+      <h1>Perguntas frequentes</h1>
+      <p class="lede">
+        Reunimos aqui as dúvidas mais comuns sobre homeopatia, florais de Bach e o funcionamento das
+        consultas. Não encontrou sua pergunta? Mande uma mensagem no WhatsApp.
+      </p>
+    </div>
+    <div class="media-frame" style="max-width:340px; justify-self:end;">
+      <img src="{{ '/assets/images/faq.jpg' | relative_url }}" alt="Ilustração 'Perguntas frequentes': balão de interrogação cercado de pequenos ícones de floral, camomila e pessoa">
+    </div>
   </div>
 </section>
 
